@@ -1,0 +1,546 @@
+@charset "UTF-8" ;
+
+a {
+	color: #f48b8b;
+	text-decoration: none;
+	transition: all.3s ease;
+    -moz-transition:all.3s ease;
+    -webkit-transition: all.3s ease;
+    -ms-transition:all.3s ease;
+}
+
+.wrapper {
+	background-color: #F6F5F4;
+}
+
+.wrapper-content {
+	background-color: #FFFFFF;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: auto;
+}
+
+
+.top-wrapper {
+	background-color: #FE7992;
+	height:28px;
+}
+
+.open a:hover{
+	color: black!important;
+}
+
+.registration{
+	color: white;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.info h4 {
+	color: #949494;
+}
+
+.basket {
+	margin-top: 40px;
+	justify-content: flex-end;
+}
+
+.basket a,.info a,.block_menu li a{
+	color: black;
+}
+
+.sum {
+	display: block;
+	margin-top:10px;
+}
+
+.logo{
+		margin-top:10px;
+	text-align:center;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.count1{
+	position: absolute;
+	right: 0;
+	top:-10px;
+	font-size: 0.7em;
+	border:1px solid black;
+	border-radius:50%;
+	width: 20px; 
+	height: 20px;
+	text-align: center;
+}
+
+.graphic{
+
+	position: relative;
+}
+
+.fonts{
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+a:hover {
+	color:#FE7992 !important;
+	text-decoration:none;
+}
+
+.right_position {
+	left:0;
+}
+
+
+
+
+.search	button {
+	display: block;
+	position: absolute;
+	right: 0;
+	top:0;
+	background-color: #FE7992;
+
+}
+
+.mobile-menu button  {
+	width: 100px;
+	height: 50px;
+}
+
+.bg-nav{
+	border-bottom: 1px solid #FE7992;
+	border-top: 1px solid #FE7992
+}
+
+.search {
+	background-color: #FE7992!important;
+    border-color: #FE7992!important;
+    color:white!important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.nav-link:hover {
+	color:  #FE7992!important;
+}
+
+/*          Левая часть сайта          */
+
+/*          Категории       */
+
+.category {
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.sidebar-category,.sidebar-category3{
+	display: block;
+	background-color: #EFEEEC;
+	font-size: 1.3em;
+	padding-right:12px;
+	border-bottom: 1px solid #CCCBC9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sidebar {
+	margin-top: 20px;
+}
+
+.sidebar a  {
+	color: black;
+}
+
+.sidebar-category3{
+	padding-left:13px;
+}
+
+.sidebar-category2 {
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: serif;
+}
+
+.pos-f-t {
+	position: relative;
+}
+
+.spirit:hover a,.spirit:hover .down{
+	color:#FE7992; 
+}
+
+.head-catalog{
+	background-color: #FE7992;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.head-catalog h4{
+	margin: 0;
+	color: white;
+}
+
+.down {
+	position: absolute;
+	right: 0;
+	top:0;
+}
+
+.wrapper-special-category{
+	margin-top: 40px;
+}
+
+/*         Соц сети    */
+
+.social-media {
+	padding-top: 10px;
+}
+
+.social-media a{
+	font-size: 1.7em;
+	color: #766D8C;
+}
+
+
+
+/*       Блог    */
+
+.sidear-blog{
+	padding-top: 20px;
+}
+
+.date {
+	color:#A9A9A9; 
+}
+
+.news-blog2{
+	margin-top: -20px;
+}
+
+@media(max-width:767px) {
+
+.sidear-blog{
+	display: none;
+	}
+}
+
+
+/*          Правая часть сайта     */
+ 
+/*          Специальные категории        */
+.image-wrapper img{
+	width: 170px;
+	height: 170px;
+
+}
+
+@media(max-width:576px) {
+
+.image-wrapper img{
+	width: 120px;
+	height: 120px;
+	}
+	.image-wrapper {
+	text-align: center;
+	}
+}
+
+@media(min-width:577px) and (max-width:767px)  {
+
+.image-wrapper img{
+	width: 240px;
+	height: 200px;
+	}
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+
+.image-wrapper img{
+	width: 140px;
+	height: 140px;
+	}
+}
+
+/*       Виды товаров       */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #ffffff;
+}
+
+.choice-product .nav-item {
+	margin-right: 20px;
+
+}
+
+.nav-pills .nav-link {
+	border-radius: 0;
+}
+
+ .choice-product .nav-link:hover{
+	border-bottom: 2px solid #AE4977;
+}
+
+.subcategory {
+	font-size: 1.2em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #AE4977;
+	border-bottom: 2px solid #AE4977;
+}
+
+
+.price {
+	position: relative;
+	color: #7F7D78;
+	padding-bottom: 10px;
+
+}
+
+.cart {
+	background-color: #AE4977;
+	position: absolute;
+	right: 0;
+	top:0;
+	border-radius:4px;
+	padding: 2px 15px;
+
+}
+
+.cart:hover {
+	background-color:#CB6694;
+}
+
+.cart i {
+		font-size: 1.3em;
+		color: white;
+}
+
+
+
+.slick-item{
+	margin-left: 20px;
+}
+
+
+.price h5 {
+		font-size: 1.2em;
+		padding-top: 2px;
+		word-spacing: 1px;
+
+}	
+
+.product-label {
+	position: absolute;
+	font-size: 1em;
+}
+
+
+.product-new {
+	background-color: #EFEEEC;
+	padding: 2px  10px;
+}
+
+.product-sale {
+	background-color: #F4393A;
+	padding: 2px  5px;
+	color: white;
+}
+
+.slick-prev, .slick-next {
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+	top:30%;
+}
+
+.slick-prev:before, .slick-next:before{
+	font-size: 32px;
+	text-shadow: 1px 1px 1px #717171;
+	color: #CB6694;
+}
+
+.slick-prev{
+	left: 10px;
+	bottom: 100px;
+}
+
+.slick-next{
+	right: 10px;
+	bottom: 100px;
+}
+
+/* Based on https://github.com/kenwheeler/slick/issues/187#issuecomment-59123524 */
+/* bootstrap hack: fix content width inside hidden tabs */
+.tab-content > .tab-pane, 
+.pill-content > .pill-pane {
+    display: block;    /* undo display:none          */
+    height: 0;         /* height:0 is also invisible */ 
+    overflow: hidden;  /* no-overflow                */
+}
+.tab-content > .active, 
+.pill-content > .active {
+    height: auto;      /* let the content decide it  */
+} 
+/* bootstrap hack end */
+
+/*          Форма отправки сообщения         */
+
+.wrapper-feedback{
+	margin-top: 2em;
+}
+
+.feedback  {
+	background-color: #EFEEEC;
+	padding:3% 5% 4% 5%;
+}
+
+.header-feedback{
+	padding-bottom: 13px;
+}
+
+.feedback-name-input, .feedback-mobile-input, .feedback-name-button{
+	width: 100%;
+	height: 33px;
+}
+
+
+.feedback-name-input, .feedback-mobile-input{
+	border: 1px solid #CB6694;
+	border-radius: 3px;
+	padding-left:0.8em; 
+	padding-right:0.8em; 
+	font-size: 1.1em;
+
+}
+
+.feedback-send span h6{
+	line-height: 1;
+}
+
+.feedback-name-button{
+	color: white;
+	background-color: #2B2B2B;
+
+}
+
+.feedback-name-button:hover {
+	background-color: #CB6694;
+}
+
+@media(max-width:767px)  {
+	.feedback-name-button {
+		margin-top: 13px;
+	}
+
+	.wrapper-article-image{
+		margin-bottom: 20px;
+	}
+
+}
+
+/*      Картинка и текст (виджет)    */
+
+.article-wrapper{
+	margin-top: 3em;
+}
+
+.wrapper-article-image img {
+	display: block;
+	border-radius: 4px;
+}
+
+.wrapper-article-text {
+	font-size: 1em;
+}
+
+.text-article h5 {
+	padding: 5px 0 5px 0;
+	color: #777670;
+
+}
+
+.text-article p{
+	color: #787878;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*
+.feedback-name-input:focus {
+    border: 1px solid #AE4977;Рамка при получении фокуса 
+   } 
+*/
+
+
+/*         Отзывы покупателей      */
+
+.wrapper-reviews{
+	margin-top: 2.5em;
+}
+
+.block-reviews,.header-reviews{
+	padding: 1em;
+}
+
+.img-fluid-reviews {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.wrapper-recomendation p{
+	color: #787878;
+}
+
+.wrapper-our-service{
+	background-color: #EFEEEC;
+	padding: 1.5em 2em 1.5em 2em;
+	border-radius: 5px;
+	margin-top: 2em;
+
+}
+
+.block-our-service{
+	padding-right: 1em;
+	padding-left: 1em;
+	height: 100%;
+}
+
+.img-fluid-service{
+	 max-width: 100%;
+    height: auto;
+}
+
+@media(max-width:992px)  {
+	.wrapper-img-service{
+		padding-top: 10%;
+	}
+	.img-fluid-service{
+	 max-width: 170%;
+    height: auto;
+}
+
+}
