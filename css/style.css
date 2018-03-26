@@ -559,6 +559,7 @@ color:#787878
 
 .wrapper-footer{
 	background-color: #FE7992;
+	width: 100%;
 }
 
 .footer-menu-navbar  a{
@@ -625,6 +626,7 @@ color:#787878
 }
 
 
+
 }
 @media (max-width:487px) {
 .wrapper-our-service{
@@ -632,3 +634,103 @@ color:#787878
 }
 }
 
+
+.arrow-up {
+	display: block;
+	width: 3em;
+	height: 3em;
+	position: fixed;
+	bottom:0.7em;
+	right: 0.7em;
+	 z-index: 1030;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	border:1px solid #FFFFFF;
+	color: #9d4e83;
+	box-shadow: 0px 0px 5px #777777;
+	font-size: 1em;
+}
+
+/*       Страница о нас         */
+
+.breadcrumb{
+	background-color: #ffffff;
+	padding-left: 0;
+}
+.breadcrumb a{
+	color: black;
+}
+
+.heading-wrapper-about_us,.main-text-info{
+	color:#777670;
+}
+
+.heading-wrapper-about_us{
+	padding-bottom: 1em;
+}
+
+.editor{
+	line-height: 1em;
+}
+
+.editor iframe {
+	width: 100%;
+}
+
+
+/*        Страница  Каталог        */
+
+.image-wrapper-page img{
+	width: 150px;
+	height: 150px;
+}
+
+.filter-wrapper{
+	margin-top: 2em;
+}
+
+
+.catalog-page-wrapper{
+	border-bottom: 1px solid #CB6694;
+	padding-bottom: 1.5em;
+}
+
+.filter ,.header-filter{
+	display: block;
+    background-color: #EFEEEC;
+    font-size: 1.3em;
+    padding-right: 12px;
+    border-bottom: 1px solid #CCCBC9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-filter{
+	padding-left: 12px;
+}
+
+.sidebar-category-aroma{
+	padding:0em 1em 0 1em;
+	font-size: 0.7em;
+}
+
+.aroma-category{
+	padding-top: 0.7em;
+}
+
+.fa-angle-up {
+	font-size: 2em;
+}
+#slider-range{
+	margin-top: 15px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+	border-radius: 50%;
+}
+
+.slider-range-price{
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
