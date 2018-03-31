@@ -1,5 +1,11 @@
 @charset "UTF-8" ;
 
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}
+}
+
 a {
 	color: #f48b8b;
 	text-decoration: none;
@@ -41,6 +47,7 @@ a {
 .info h4 {
 	color: #949494;
 }
+
 
 .basket {
 	margin-top: 40px;
@@ -87,8 +94,57 @@ a {
 	margin-right: 10px;
 }
 
+.navbar-small .basket {
+	margin-top: 15px;
+}
+
+@media(min-width:768px) and (max-width:992px){
+	.logo-header{
+		border-bottom: 1px solid #FE7992;
+		border-top: 1px solid #FE7992
+	}
+	}
+	
 
 
+
+	.carousel-mobile{
+		display: none;
+	}
+	
+	.navbar-small{
+		display: none;
+	}
+
+@media(max-width:768px){
+	.carousel-mobile{
+		display: block;
+	}
+	.carousel-pc{
+		display: none;
+	}
+}
+
+
+@media(max-width:991px){
+	.nav-lg{
+		display: none;
+	}
+	.basket-wrapper, .logo-header .info{
+		display: none;
+	}
+	.navbar-small{
+		display: block;
+
+	}
+	.navbar-small nav{
+		border:1px solid white!important;
+	}
+	
+	.logo-header{
+		padding-bottom: 30px;
+	}
+}
 
 
 
@@ -547,7 +603,8 @@ input::-webkit-inner-spin-button {
 
 
 .main-text-info{
-color:#787878
+color:#787878;
+padding-bottom: 2em;
 }
 
 .header-main-sheet, .main-text-info{
@@ -732,5 +789,185 @@ color:#787878
 .slider-range-price{
 	margin-left: 1em;
 	margin-right: 1em;
+}
 
+.btn-use{
+	padding: 0.3em 4em 0.3em 4em;
+}
+
+.wrapper-btn-use{
+	padding: 20px 12px 20px 12px;
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+
+.btn-use{
+	padding: 0.3em 2em 0.3em 2em;
+}
+
+.catalog-product h5{
+	font-size: 1.1em;
+}
+
+}
+
+.header-sort{
+	margin-top: 1em;
+}
+
+#select-sort{
+	border:1px solid #CB6694;
+	margin-right: 1em;
+	padding:0.3em 0.3em 0.3em 0.3em;
+}
+
+.content{
+	margin-top: 0!important;
+}
+
+.catalog-product .slick-item{
+	margin-left: 0;
+	margin-top: 1.5em;
+}
+
+.select-pages{
+	padding:0.1em 0.2em 0.1em 0.2em; 
+	border:1px solid #CB6694;
+}
+
+.wrapper-pages{
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+/*     Страничка входа в аккаунт    */
+
+.e-mail-account span,.password-account span{
+	color: red;
+}
+
+.e-mail-account input,.password-account input{
+	width: 45%;
+}
+
+.password-account{
+	margin-top: 1em;
+}
+
+.entrance-account{
+	margin:2em 0 2em 0;
+}
+.entrance-account a{
+	border-bottom: 2px dotted black;
+	font-size: 1.1em;
+	margin-left: 1em;
+}
+
+.btn-enter{
+	padding:0.2em 1.5em 0.2em 1.5em;
+}
+
+.btn-enter span {
+	font-size: 1em;
+}
+
+.btn-enter:hover{
+	background-color: #CB6694;
+	border-color: #CB6694;
+}
+.entrance-account a:hover{
+	border-color: #CB6694;
+	color: #CB6694!important;
+}
+
+
+
+
+/*     Страничка блога    */
+
+.wrapper-blog{
+	padding-bottom: 3em;
+}
+
+.all-tags ul{
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 0;
+
+}
+
+.tag {
+	display: flex;
+	margin: 0.7em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	border:1px solid #CB6694;
+
+}
+
+.tag a{
+	color: black;
+}
+
+.tag-name{
+	padding:0 10px 0 10px;
+	border-right:1px solid #CB6694; 
+}
+.tag-count{
+	padding-right:5px;
+}
+
+.tag:hover,.tag a:hover {
+		border-color: #B01F34;
+		color: #B01F34;
+}
+
+.article-date a,.article-date i{
+	margin-left: 4px;
+}
+
+.content-blog .article-header{
+	margin-top:1em;
+}
+
+.content-blog{
+	margin-top:1em;
+}
+
+
+/*         Страничка Каталога Духи           */
+
+.wrapper-text-spirit p,.wrapper-info-spirit p,.wrapper-info-perfumery-water p{
+	color: #757469;
+	padding-bottom: 1em;
+}
+
+.wrapper-submenu-spirit{
+	border-bottom: 1px solid #CB6694;
+	padding-bottom: 1em;
+}
+
+.is_active{
+	color: #f48b8b!important;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #CB6694!important;
+}
+
+.wrapper-info-perfumery-water{
+	padding-top: 2em;
+}
+
+
+/*         Страничка Каталога Кремы       */
+.padding-top{
+	padding-top: 2em;
+}
+
+/*         Страничка Гели    */
+
+.wrapper-gels-page{
+	padding-bottom: 2em;
 }
