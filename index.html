@@ -29,7 +29,7 @@
 		<div class="top-wrapper">
 			<div class="container">			
 				<div class="row">
-					<div class="col-md-3 col-sm-4 open"><a href="#" class="registration">Вход/Регистрация</a>
+					<div class="col-md-3 col-sm-4 open"><a href="account.html" class="registration">Вход/Регистрация</a>
 					</div>
 					<div class="col-md-9 col-sm-8  text-right" ><p class="registration">Часы работы: с 9:00 до 19:00 пн-вс</p>
 					</div>
@@ -106,24 +106,67 @@
 							<div class="info text-center">			
 								<a href="#"><i class="fa fa-envelope" aria-hidden="true"> devid.nguyen@gmail.com</i></a>	
 								<h4>8(495)549-83-14</h4>
-								<a href="#">Обратный звонок</a>	
+								<a href="#" data-toggle="modal" data-target="#btn-recomend">Обратный звонок</a>
+									
+
 							</div>		
 						</div>
+						
+						<!-- Modal -->
+									<div class="modal fade" id="btn-recomend" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									  <div class="modal-dialog modal-dialog-centered" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h4 class="modal-title" id="exampleModalLongTitle">Обратный звонок</h4>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body">
+										     	<form class="form-recomend" method="POST">
+										     		
+											        <div class="container-fluid">
+													    <div class="row">
+													      <div class="col-md-6 name-rec">
+													     	 <p>Имя </p>
+													     	 <input type="text" required>
+													      </div>
+													      <div class="col-md-6 email-rec">
+													      	<p>Телефон<span>*</span></p>
+													     	 <input type="number" required>
+													      </div>
+													    </div>
+											      
+										      		</div>
+											      	<div class="modal-footer d-flex justify-content-end">
+											        <button type="submit" class="btn btn-dark btn-basket">ОТПРАВИТЬ</button>
+											      	</div>
+									      
+									      		</form>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+
 						<div class="col-md-6 col-sm-12 logo text-center">
-							<a href="index.html"><img  src="https://assets3.insales.ru/assets/1/5738/915050/1516243474/logotype.jpg" alt="аромат" title="аромат">
+							<a href="index.html"><img  src="img/logo.jpg" alt="аромат" title="аромат">
 							</a>
 						
 						</div>
 						<div class="basket-wrapper col-md-3 col-sm-12">
 							<div class="row basket d-flex justify-content-center">
-									<div class="graphic ">	
-									<div class="count1">0</div>	
-									<a href="#" class="fonts"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+								<div class="graphic ">	
+									<a class="count1_fonts" href="#">
+										<div class="count1">0</div>	
+										<div href="#" class="fonts"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
+									</a>
 									
 								</div>
 								<div class="graphic ">
-									<div class="count1">0</div>
-									<a href="#" class="fonts"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+									<a class="count1_fonts" href="#">
+										<div class="count1">0</div>
+										<div href="#" class="fonts"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+									</a>
 								</div>	
 								<div>				
 										<p class="sum">Корзина:0.00 rub</p>
@@ -290,12 +333,12 @@
 								<div class="news-blog">
 									<div class="image-blog">
 										<a href="blog/facial_treatment.html">
-											<img class="img-fluid" src="https://static-eu.insales.ru/images/articles/1/1135/222319/large_15774549533_2a6cafc251.jpg" alt="уход за лицом">
+											<img class="img-fluid" src="img/blog_img1.jpg" alt="уход за лицом">
 										</a>
 									</div>
 									<div class="article-wrapper">
 										<div class="article-header">
-											<p><strong>Уход за лицом</strong></p>
+											<a href="blog/facial_treatment.html"><strong>Уход за лицом</strong></a>
 										</div>
 										<div class="article-content">
 											<p>Третья статья Блога</p>
@@ -308,13 +351,13 @@
 
 								<div class="news-blog2">
 									<div class="image-blog">
-										<a href="#">
-											<img class="img-fluid" src="https://static-eu.insales.ru/images/articles/1/4088/225272/large_picture5.jpg" alt="Какая парфюмерия лучше?">
+										<a href="blog/best_parfum.html">
+											<img class="img-fluid" src="img/blog_img2.jpg" alt="Какая парфюмерия лучше?">
 										</a>
 									</div>
 									<div class="article-wrapper">
 										<div class="article-header">
-											<p><strong>Какая парфюмерия лучше?</strong></p>
+											<a href="blog/best_parfum.html"><strong>Какая парфюмерия лучше?</strong></a>
 										</div>
 										<div class="article-content">
 											<p>Вторая статья Блога</p>
@@ -327,13 +370,13 @@
 
 								<div class="news-blog">
 									<div class="image-blog">
-										<a href="#">
-											<img class="img-fluid" src="https://static-eu.insales.ru/images/articles/1/4055/225239/large_picture2.jpg" alt="Как выбрать косметику">
+										<a href="blog/choice_parfum.html">
+											<img class="img-fluid" src="img/blog_img3.jpg" alt="Как выбрать косметику">
 										</a>
 									</div>
 									<div class="article-wrapper">
 										<div class="article-header">
-											<p><strong>Как выбрать косметику</strong></p>
+											<a href="blog/choice_parfum.html"><strong>Как выбрать косметику</strong></a>
 										</div>
 										<div class="article-content">
 											<p>Первая статья Блога</p>
@@ -361,20 +404,20 @@
 								  </ol>
 								  <div class="carousel-inner">
 									    <div class="carousel-item active">
-									      <img class="d-block w-100" src="https://static-eu.insales.ru/files/1/658/4186770/original/баннеры4.jpg" alt="Первый слайд">
+									      <img class="d-block w-100" src="img/slider_img1.jpg" alt="Первый слайд">
 									     <div class="carousel-caption d-none d-md-block">
 										   	<h3>Быстрая доставка до двери</h3>
 										   
 									 	 </div>
 								    	</div>
 								    <div class="carousel-item " >
-								      <img class="d-block w-100"  src="https://static-eu.insales.ru/files/1/665/4186777/original/баннеры2.jpg" alt="Второй слайд">
+								      <img class="d-block w-100"  src="img/slider_img2.jpg" alt="Второй слайд">
 								      <div class="carousel-caption d-none d-md-block">
 									   <h3>Выгодные акции и бонусы</h3>			   
 									 	</div>
 								    </div>
 								    <div class="carousel-item" >
-								      <img class="d-block w-100" src="https://static-eu.insales.ru/files/1/659/4186771/original/баннеры3.jpg" alt="Третий слайд">
+								      <img class="d-block w-100" src="img/slider_img3.jpg" alt="Третий слайд">
 								       <div class="carousel-caption d-none d-md-block">
 									   <h3>Только оригинальные товары</h3>			   
 									 	</div>
@@ -397,7 +440,7 @@
 										<div class="wrapper-special-category">
 											<a href="spirit/spirit.html">
 												<div class="image-wrapper">
-													<img src="https://static-eu.insales.ru/images/collections/1/559/1655343/large_a12c32c07f.jpg" alt="духи">
+													<img src="img/spirit_img.jpg" alt="духи">
 												</div>
 												<div class="name-category text-center">
 													<h6>Духи</h6>
@@ -409,7 +452,7 @@
 										<div class="wrapper-special-category">
 											<a href="creams/creams.html">
 												<div class="image-wrapper">
-													<img src="https://static-eu.insales.ru/images/collections/1/560/1655344/large_15368465987_57e1aeaa81_b.jpg" alt="духи">
+													<img src="img/creams_img.jpg" alt="духи">
 												</div>
 												<div class="name-category text-center">
 													<h6>Кремы</h6>
@@ -421,7 +464,7 @@
 										<div class="wrapper-special-category">
 											<a href="gels/gels.html">
 												<div class="image-wrapper">
-													<img src="https://static-eu.insales.ru/images/collections/1/990/1655774/large_22407040677_0e958d75ac_b.jpg" alt="духи">
+													<img src="img/gels_img.jpg" alt="духи">
 												</div>
 												<div class="name-category text-center">
 													<h6>Гели</h6>
@@ -433,7 +476,7 @@
 										<div class="wrapper-special-category">
 											<a href="pomade/pomade.html">
 												<div class="image-wrapper">
-													<img src="https://static-eu.insales.ru/images/collections/1/1003/1655787/large_2016-new-arrival-bbia-lipstick-velvet-matte.jpg" alt="духи">
+													<img src="img/pomade_img.jpg" alt="духи">
 												</div>
 												<div class="name-category text-center">
 													<h6>Помады</h6>
@@ -465,7 +508,7 @@
 									  					<span class="product-new">Новинка</span>
 									  					<span class="product-sale">12%</span>
 									  				</div>
-									  				<a href="products/thing1.html"><img class="img-fluid"  src="https://static-eu.insales.ru/images/products/1/22/138846230/large_7714_1.png" alt="">
+									  				<a href="products/thing1.html"><img class="img-fluid"  src="img-products/thing1.png" alt="">
 									  				</a>
 													<div class="price">
 									  					<h5>от 4300 руб</h5>
@@ -484,7 +527,7 @@
 										  			<div class="product-label">
 										  					<span class="product-new">Экономия 820руб</span>
 										  			</div>
-									  				<a href="#"><img  class="img-fluid" src="https://static-eu.insales.ru/images/products/1/3398/138956102/large_20280_2.png" alt=""></a>
+									  				<a href="#"><img  class="img-fluid" src="img-products/thing2.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>2525 руб</h5>
 									  					<a class="sub" href="#">
@@ -503,7 +546,7 @@
 										  					<span class="product-new">Хит</span>
 										  					<span class="product-sale">12%</span>
 										  			</div>
-									  				<a href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/132/138846340/large_23838_2.png" alt=""></a>
+									  				<a href="#"><img class="img-fluid" src="img-products/thing3.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>от 3700 руб</h5>
 									  					<a class="sub" href="#">
@@ -521,7 +564,7 @@
 										  			<div class="product-label">
 										  					<span class="product-sale">12%</span>
 										  			</div>
-									  				<a href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/4331/138825963/large_14659_2.png" alt=""></a>
+									  				<a href="#"><img class="img-fluid" src="img-products/thing4.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>1950 руб</h5>
 									  					<a class="sub" href="#">
@@ -540,7 +583,7 @@
 										  					<span class="product-new">Распродажа</span>
 										  					<span class="product-new">Хит</span>
 										  			</div>
-									  				<a href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/8116/138846132/large_23853_1.png" alt=""></a>
+									  				<a href="#"><img class="img-fluid" src="img-products/thing5.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>от 5135 руб</h5>
 									  					<a class="sub" href="#">
@@ -559,7 +602,7 @@
 										  					<span class="product-new">Распродажа</span>
 										  					<span class="product-sale">15%</span>
 										  			</div>
-									  				<a href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/3511/138956215/large_17484_2.png" alt=""></a>
+									  				<a href="#"><img class="img-fluid" src="img-products/thing6.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>1685 руб</h5>
 									  					<a class="sub" href="#">
@@ -577,7 +620,7 @@
 										  			<div class="product-label">
 										  					<span class="product-new">Распродажа</span>
 										  			</div>
-									  				<a href="#"> <img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/117/138846325/large_19798_2.png" alt=""></a>
+									  				<a href="#"> <img class="img-fluid" src="img-products/thing7.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>от 1595 руб</h5>
 									  					<a class="sub" href="#">
@@ -596,7 +639,7 @@
 										  					<span class="product-new">Новинка</span>
 										  					<span class="product-sale">42%</span>
 										  			</div>
-									  				<a  href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/4845/138826477/large_4635_2.png" alt=""></a>
+									  				<a  href="#"><img class="img-fluid" src="img-products/thing8.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>550 руб</h5>
 									  					<a class="sub" href="#">
@@ -615,7 +658,7 @@
 										  					<span class="product-new">Новинка</span>
 										  					<span class="product-sale">33%</span>
 										  			</div>
-									  				<a  href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/4560/138826192/large_20163_2.png" alt=""></a>
+									  				<a  href="#"><img class="img-fluid" src="img-products/thing9.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>800 руб</h5>
 									  					<a class="sub" href="#">
@@ -635,7 +678,7 @@
 										  					<span class="product-new">Новинка</span>
 										  					<span class="product-sale">21%</span>
 										  			</div>
-									  				<a href="#"><img class="img-fluid" src="https://static-eu.insales.ru/images/products/1/6022/138827654/large_17321_2.png" alt=""></a>
+									  				<a href="#"><img class="img-fluid" src="img-products/thing10.png" alt=""></a>
 									  				<div class="price">
 									  					<h5>1850 руб</h5>
 									  					<a class="sub" href="#">
@@ -1122,10 +1165,11 @@
 										<form >
 											<div class="row">
 												<div class="feedback-name col-md-4 col-sm-6 col-6 text-center">
-													<input class="feedback-name-input" type="text" name="name" placeholder="Имя">
+
+													<input class="feedback-name-input " type="text" name="name" placeholder="Имя" required>
 												</div>
 												<div class="feedback-mobile col-md-4 col-sm-6 col-6">
-													<input  class="feedback-mobile-input " type="number" name="phone" placeholder="Телефон">
+													<input  class="feedback-mobile-input " type="number" name="phone" placeholder="Телефон" required>
 												</div>
 												<div class="feedback-send col-md-4 col-sm-12 col-12">
 													<button class="feedback-name-button btn" type="submit" name="Отправить">
@@ -1144,7 +1188,7 @@
 								<div class="articler-block">
 									<div class="row">
 										<div class="col-md-12 col-lg-5 wrapper-article-image ">
-											<img class="img-fluid rounded mx-auto d-block" src="https://static-eu.insales.ru/files/1/5006/4207502/original/d2ed1b9e0a666622c5be9a82abb99d56.jpg" alt="Картинка с текстом">
+											<img class="img-fluid rounded mx-auto d-block" src="img/vijet.jpg" alt="Картинка с текстом">
 
 										</div>
 										<div class="col-md-12 col-lg-7 wrapper-article-text">
@@ -1166,7 +1210,7 @@
 										<div class="block-reviews col-md-12 col-lg-6">
 											<div class="row">
 												<div class="wrapper-image-reviews col-3 col-lg-4">
-													<img class="img-fluid-reviews" src="https://static-eu.insales.ru/files/1/2073/4179993/original/парень1.jpg" alt="Денис">
+													<img class="img-fluid-reviews" src="img/recomend_person1.jpg" alt="Денис">
 												</div>
 												<div class="wrapper-recomendation col-9 col-lg-8">
 													<h5>Денис</h5>
@@ -1177,7 +1221,7 @@
 										<div class="block-reviews col-md-12 col-lg-6">
 											<div class="row">
 												<div class="wrapper-image-reviews col-3 col-lg-4" >
-													<img class="img-fluid-reviews" src="https://static-eu.insales.ru/files/1/2075/4179995/original/наталья.jpg" alt="Наталья">
+													<img class="img-fluid-reviews" src="img/recomend_person2.jpg" alt="Наталья">
 												</div>
 												<div class="wrapper-recomendation col-9 col-lg-8">
 													<h5>Наталья</h5>
@@ -1188,7 +1232,7 @@
 										<div class="block-reviews  col-lg-6 col-12">
 											<div class="row">
 												<div class="wrapper-image-reviews  col-3 col-lg-4">
-													<img class="img-fluid-reviews" src="https://static-eu.insales.ru/files/1/2090/4180010/original/парень2.jpg" alt="Дмитрий">
+													<img class="img-fluid-reviews" src="img/recomend_person3.jpg" alt="Дмитрий">
 												</div>
 												<div class="wrapper-recomendation  col-9 col-lg-8">
 													<h5>Дмитрий</h5>
@@ -1199,7 +1243,7 @@
 										<div class="block-reviews col-md-12 col-lg-6">
 											<div class="row">
 												<div class="wrapper-image-reviews col-3 col-lg-4">
-													<img class="img-fluid-reviews" src="https://static-eu.insales.ru/files/1/2122/4180042/original/a3f942178586931078efc8de4ed13b82.jpg" alt="Софья">
+													<img class="img-fluid-reviews" src="img/recomend_person4.jpg" alt="Софья">
 												</div>
 												<div class="wrapper-recomendation col-9 col-lg-8">
 													<h5>Софья</h5>
@@ -1216,7 +1260,7 @@
 									<div class="block-our-service col-4">
 										<div class="row">
 											<div class="wrapper-img-service col-4">
-												<img class="img-fluid-service" src="https://static-eu.insales.ru/files/1/1489/4179409/original/047ac95566b6317e2ffecde9eed6f53f.png" alt="Быстрая доставка">
+												<img class="img-fluid-service" src="img/service_img1.png" alt="Быстрая доставка">
 											</div>
 											<div class="wrapper-text-service col-8">
 												<p>Быстрая доставка до двери</p>
@@ -1226,7 +1270,7 @@
 									<div class="block-our-service col-4">
 										<div class="row">
 											<div class="wrapper-img-service col-4">
-												<img class="img-fluid-service" src="https://static-eu.insales.ru/files/1/1790/4179710/original/5a7324059db8638434a8596ca43fb5bd.png" alt="Выгодные акции и бонусы">
+												<img class="img-fluid-service" src="img/service_img2.png" alt="Выгодные акции и бонусы">
 											</div>
 											<div class="wrapper-text-service col-8">
 												<p>Выгодные акции и бонусы</p>
@@ -1236,7 +1280,7 @@
 									<div class="block-our-service col-4">
 										<div class="row">
 											<div class="wrapper-img-service col-4">
-												<img class="img-fluid-service" src="https://static-eu.insales.ru/files/1/1974/4179894/original/f4af03040801d6cfea16888763c08039.png" alt="Гарантии качества продукции">
+												<img class="img-fluid-service" src="img/service_img3.png" alt="Гарантии качества продукции">
 											</div>
 											<div class="wrapper-text-service col-8">
 												<p>Гарантии качества продукции</p>

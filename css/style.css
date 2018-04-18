@@ -1,8 +1,6 @@
 @charset "UTF-8" ;
 
-*{
-	outline: #FE7992!important;
-}
+
 
 p{
 	color: #787878;
@@ -98,6 +96,14 @@ a {
 .graphic{
 
 	position: relative;
+}
+
+.graphic:hover{
+	color: #FE7992!important;
+}
+
+.count1_fonts:hover .count1{
+	border-color: #FE7992!important;
 }
 
 .fonts{
@@ -313,6 +319,13 @@ a:hover {
 	}
 }
 
+.article-header a{
+	color: black!important;
+}
+
+.article-header a:hover{
+	color: #FE7992!important;
+}
 
 /*          Правая часть сайта     */
  
@@ -520,6 +533,8 @@ a:hover {
 .feedback-name-button:hover {
 	background-color: #CB6694;
 }
+
+
 
 @media(max-width:767px)  {
 	.feedback-name-button {
@@ -1138,7 +1153,9 @@ padding-bottom: 2em;
 	padding-right: 0.2em;
 }
 
-
+.btn-add-comparison:hover, .btn-delete-comparison:hover{
+	outline: none;
+}
 
 .wrapper-comparison button:hover{
 	color: #CB6694;
